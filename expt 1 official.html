@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<!-- <style>
+    h1{
+        text-align:center;
+    }
+</style> -->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 
+    
+        Student Registration Form
+    
+    </title>
+
+</head>
+
+
+
+<body>
+
+    <form>
+
+        <table cellpadding = "13">
+
+        <h1>Student Registration Form</h1>
+
+        <tr>
+            <td>First name: </td>
+            <td><input type = "text" name = "firstName"> (max 30 characters a-z and A-z)</td>
+        </tr>
+
+        <tr>
+            <td>Middle name: </td>
+            <td><input type = "text" name = "middleName" required> (max 30 characters a-z and A-z)</td>
+        </tr>
+
+        <tr>
+            <td>Last name: </td>
+            <td><input type = "text" name = "lastName"> (max 30 characters a-z and A-z)</td>
+        </tr>
+
+
+
+        <tr>
+            <td><label for="dob">Date of Birth:</label></td>
+            <td>
+                <select name = "Day">
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+
+                </select>
+
+                <select name = "month">
+                    <option>Month</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <select name = "year">
+                    <option>Year</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                </select>
+
+        </tr>
+        
+
+
+
+        <tr>
+            <td>Email ID:</td>
+            <td><input type = "text" name = "emailid"> </td>
+        </tr>
+
+
+
+        <tr>
+            <td>Mobile Number:</td>
+            <td><input type = "text" name = "mobileno"> </td>
+        </tr>
+
+
+
+        <tr>
+            <td>Gender</td>
+            <td><input type = "radio" name = "gen" value = "Male"> Male 
+                <input type = "radio" name = "gen" value = "Female"> Female</td>
+        </tr>
+
+
+
+        <tr>
+            <td>Address: </td>
+            <td><textarea rows="5" cols="33" colspan="1" placeholder="Please Enter Your Address here..."></textarea></td>
+        </tr>
+
+
+
+        <tr>
+            <td>City:</td>
+            <td><input type = "text" name = "city"> (max 30 characters a-z and A-z)</td>
+        </tr>
+
+
+
+        <tr>
+            <td>PIN Code:</td>
+            <td><input type = "text" name = "pincode"> (6 digit numbers)</td>
+        </tr>
+
+
+
+        <tr>
+            <td>State</td>
+            <td><input type = "text" name = "state"> (max 30 characters a-z and A-z)</td>
+        </tr>
+
+
+
+        <tr>
+            <td>Country:</td>
+            <td><input type = "text" name = "country" placeholder="India"> </td>
+        </tr>
+
+        <tr>
+            <td>Hobbies:</td>
+            <td><input type="checkbox" name="coding"> Coding 
+                <input type="checkbox" name="blogWriting"> Blog Writing 
+                <input type="checkbox" name="hacking"> Hacking 
+                <input type="checkbox" name="cricket"> Cricket 
+                <input type="checkbox" name="others"> Others 
+                <input type="checkbox" name="others"> <input type = "text" name = "others"></td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>Qualifications</td>
+            <td><table>
+                <tr>
+                    <th>Sl.No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of passing</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" name="board10"></td>
+                    <td><input type="text" name="percent10"></td>
+                    <td><input type="text" name="pass10"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" name="board12"></td>
+                    <td><input type="text" name="percent12"></td>
+                    <td><input type="text" name="pass12"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="gradBoard"></td>
+                    <td><input type="text" name="gradPercent"></td>
+                    <td><input type="text" name="gradPass"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text" name="masBoard"></td>
+                    <td><input type="text" name="masPercent"></td>
+                    <td><input type="text" name="masPass"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>(10 char max)</td>
+                    <td>(upto 2 decimal)</td>
+                    <td></td>
+                </tr>
+            </table></td>
+        </tr>
+
+
+
+
+        <tr>
+            <td>Courses Applied For:    </td>
+            <td><input type ="radio" name = "sem" value="btech"> BTech
+                <input type ="radio" name = "sem" value="mtech"> MTech
+                <input type ="radio" name = "sem" value="phd"> PhD
+                <input type ="radio" name = "sem" value="ms"> MS</td>
+        </tr>
+
+
+
+        </table>
+
+
+        <input type= "submit" value = "Submit">
+        <input type = "reset" value = "Reset">
+
+    </form>
+
+</body>
+
+
+</html>
+
